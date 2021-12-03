@@ -30,7 +30,8 @@ StaticPred::lookup(ThreadID tid, Addr branch_addr, void * &bp_history)
 {
     bool taken;
 
-    taken = 1;
+		// not taken
+    taken = 0;
 
     return taken;
 }
