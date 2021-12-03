@@ -1,4 +1,5 @@
-In the following arguments the <CPU_TYPE> equals MinorCPU or O3CPU
+In the following arguments the <CPU_TYPE> equals to O3CPU, everything else instead of O3CPU is considered
+an invalid option.
 
 ./runall.sh <CPU_TYPE> StaticPred BTB_Entries
 
